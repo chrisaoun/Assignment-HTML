@@ -1,13 +1,40 @@
+<!DOCTYPE.html/>
 <html>
-<title>This is an assignment</title>
+<title>A memorial to Harambe</title>
 </head>
 <body>
+<center>
 
-<h1>This is an assignment for Computer Programming</h1>
-<p><b>This should be bold.</b>. <i>This should be in italics.</i> <u>This should be underlined.</u></p>
+<h1>Harambe was brutally murdered.</h1>
+<p><b>At the Cincinnati Zoo.</b>. <i>on May 28, 2016.</i> <u>at 16:00 EDT.</u></p>
 
-<h2>A memorial to our beloved Harambe<h2>
+<h2>Here is a picutre of him.<h2>
 <img src="Harambe.jpg" alt="Harambe" style="width:615px;height:615px;">
 
+<h3>
+	<style>
+#map {
+        width: 50%;
+        height: 600px;
+     }
+    </style>
+  </head>
+  <body>
+    <h3>Here is where he was slaughtered</h3>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: 39.1446, lng: -84.5086},
+            zoom: 15
+        });
+      }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmGmAH9fY5kDnhntsL-hDz070-EwOQHMk&callback=initMap">
+    </script>
+
+<center>
 </body>
 </html>
