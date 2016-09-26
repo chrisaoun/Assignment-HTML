@@ -110,7 +110,7 @@ th, td {
 	<td>0</td>
   </tr>
 </table>
-
+</center>
 <br>
 
 <left>
@@ -124,10 +124,38 @@ th, td {
 </ul>
 </body>
 </font>
-<left>
 
 
-<center>
+
+<body>
+<form action="action_page.php">
+  <fieldset>
+    <legend>Login information:</legend>
+    First name:<br>
+    <input type="text" name="firstname" value="">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" value="">
+    <br>
+	Username:<br>
+    <input type="text" name="username" value="">
+    <br>
+	Password:<br>
+    <input type="password" name="password">
+    <br>
+	<input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other<br>
+    <b>Security Question:</b> Who is the Supreme Leader of North Korea?:<br>
+    <input type="text" name="securityquestion" value="">
+    <br><br>
+	
+	  <input type="submit" value="Submit">
+	
+  </fieldset>
+</form>
+
+</body>
 </font>
 </body>
 </html>
